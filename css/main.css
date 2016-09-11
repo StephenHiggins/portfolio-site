@@ -42,7 +42,7 @@ p {
     display: inline;
     font-size: 20px;
     padding: 50px;
-    margin: 100px;
+    margin: 50px;
     color: DarkCyan;
 }
 
@@ -68,4 +68,33 @@ p {
   	margin: 100px;
   	
 
+}
+
+#container {
+	width: 80%;
+	align-content: center;
+	margin: auto;
+}
+
+.about {
+	display: none;
+}
+
+.article-active{
+	display: block;
+}
+
+.portfolio {
+	display: none;
+}
+
+.contact {
+	display: none;
+}
+footer {
+	justify-content: center;
+  	align-items: center;
+  	text-align: center;
+	padding: 10px;
+	margin: 10px;
 }
