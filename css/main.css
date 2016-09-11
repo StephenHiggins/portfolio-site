@@ -37,3 +37,35 @@ p {
 	width: 600px
   	margin: 0 auto 20px
 }
+
+.nav-links li {
+    display: inline;
+    font-size: 20px;
+    padding: 50px;
+    margin: 100px;
+    color: DarkCyan;
+}
+
+.nav-links li a {
+    
+    color: DarkCyan;
+    text-decoration: none;
+
+}
+.active {
+    text-decoration: underline;
+
+}
+.nav-links li a:hover {
+    background-color: DarkCyan;
+    color: white;
+}
+
+.nav {
+	justify-content: center;
+  	align-items: center;
+  	text-align: center;
+  	margin: 100px;
+  	
+
+}
