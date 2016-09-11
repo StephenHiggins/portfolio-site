@@ -32,3 +32,8 @@ header {
 
 
 }
+
+p {
+	width: 600px
+  	margin: 0 auto 20px
+}
