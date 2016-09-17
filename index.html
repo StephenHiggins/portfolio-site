@@ -9,56 +9,143 @@
 	<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	
 	<link rel="stylesheet" href="css/main.css"/>
+	<link rel="stylesheet" href="css/colours.css"/>
 	<script src="https://use.fontawesome.com/75616c7330.js"></script>
 
 </head>
+	
 	<body>
-		<!-- over all content holder -->
 		<div class="container">
-			<div class="row">
-				<!--- Nav -->
-				<nav class="navbar navbar-default ">
-				  <div class="container-fluid">
-				    <div class="navbar-header">
-				      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				      </button>
-				      <a class="navbar-brand" href="index.html">Stephen Higgins, Codified</a>
-				    </div>
-				    <div class="collapse navbar-collapse" id="myNavbar">
-				      <ul class="nav navbar-nav">
-				        <li class="active"><a href="#">Home</a></li>
-				        <li><a href="#">Page 1</a></li>
-				        <li><a href="#">Page 2</a></li> 
-				        <li><a href="#">Page 3</a></li> 
-				      </ul>
-				      <ul class="nav navbar-nav navbar-right">
-				        <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></li>
-    					
-				        <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></li>
-				      </ul>
-				    </div>
-				  </div>
-				</nav>
+	<div class="row">
+		<div class="col-md-12">
+			<ul class="nav nav-pills">
+				<li class="active">
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#">Profile</a>
+				</li>
+				<li class="disabled">
+					<a href="#">Messages</a>
+				</li>
+				<li class="dropdown pull-right">
+					 <a href="#" data-toggle="dropdown" class="dropdown-toggle">Dropdown<strong class="caret"></strong></a>
+					<ul class="dropdown-menu">
+						<li>
+							<a href="#">Action</a>
+						</li>
+						<li>
+							<a href="#">Another action</a>
+						</li>
+						<li>
+							<a href="#">Something else here</a>
+						</li>
+						<li class="divider">
+						</li>
+						<li>
+							<a href="#">Separated link</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<div class="jumbotron well tag-text">
+				<h1 class="">
+					{ Stephen Higgins - I love to code! }
+				</h1>
+				
+				<p>
+					<a class="btn btn-primary btn-large" href="#">Learn more</a>
+				</p>
 			</div>
-			<!-- header  
-			<div class="row">			
-				<div class="col-sm-12 header">
-					<h1>Stephen Higgins, codified</h1>
-				</div>
-			</div>
-			-->
-				<div class="row">
-					<div class="col-sm-12">
-					  	<footer>
-					  		<h1>&copy; 2016 Stephen Higgins</h1>> 
-					  	</footer>
-		  			</div>
-		  		</div>
-	    </div>
-		
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 well">
+			<blockquote id="quote-container">
+				<p>I love to code...<small>(Stephen Higgins)</small></p>
+			</blockquote>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<p class="text-center">
+				Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+			</p>
+		</div>
+		<div class="col-md-6">
+			<p class="text-center">
+				Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+			</p>
+		</div>
+	</div>
+	<div class="row footer">
+		<div class="col-md-6 text-left">
+			<p>
+				&copy; 2016 Stephen Higgins
+			</p>
+		</div>
+		<div class="col-md-6 text-right">
+			<p>
+				See me across social media
+			</p>
+		</div>
+	</div>
+</div>
+		<div id="hidden-quote-container">
+
+			<p class="quoted" id="quote1">The best thing about a boolean is even if you are wrong, you are only off by a bit. <small>(Anonymous)</small></p>
+
+			<p class="quoted" id="quote2">Without requirements or design, programming is the art of adding bugs to an empty text file. <small>(Louis Srygley)</small></p>
+
+			<p class="quoted" id="quote3">Before software can be reusable it first has to be usable. <small>(Ralph Johnson)</small></p>
+
+			<p class="quoted" id="quote4">The best method for accelerating a computer is the one that boosts it by 9.8 m/s2. <small>(Anonymous)</small></p>
+
+			<p class="quoted" id="quote5">I think Microsoft named .Net so it wouldn’t show up in a Unix directory listing. <small>(Oktal)</small></p>
+
+			<p class="quoted" id="quote6">If builders built buildings the way programmers wrote programs, then the first woodpecker that came along wound destroy civilization. <small>(Gerald Weinberg)</small></p>
+
+			<p class="quoted" id="quote7">There are two ways to write error-free programs; only the third one works. <small>(Alan J. Perlis)</small></p>
+
+
+			<p class="quoted" id="quote8">Ready, fire, aim: the fast approach to software development. Ready, aim, aim, aim, aim: the slow approach to software development. <small>(Anonymous)</small></p>
+
+			<p class="quoted" id="quote9">It’s not a bug – it’s an undocumented feature. <small>(Anonymous)</small></p>
+
+			<p class="quoted" id="quote10">One man’s crappy software is another man’s full time job. <small>(Jessica Gaston)</small></p>
+
+			<p class="quoted" id="quote11">A good programmer is someone who always looks both ways before crossing a one-way street. <small>(Doug Linder)</small></p>
+
+			<p class="quoted" id="quote12">Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live. <small>(Martin Golding)</small></p>
+
+			<p class="quoted" id="quote13">Programming is like sex. One mistake and you have to support it for the rest of your life. <small>(Michael Sinz)</small></p>
+
+
+			<p class="quoted" id="quote14">Deleted code is debugged code. <small>(Jeff Sickel)</small></p>
+
+			<p class="quoted" id="quote15">Walking on water and developing software from a specification are easy if both are frozen. <small>(Edward V Berard)</small></p>
+
+			<p class="quoted" id="quote16">If debugging is the process of removing software bugs, then programming must be the process of putting them in. <small>(Edsger Dijkstra)</small></p>
+
+			<p class="quoted" id="quote17">Software undergoes beta testing shortly before it’s released. Beta is Latin for “still doesn’t work. <small>(Anonymous)</small></p>
+
+			<p class="quoted" id="quote18">Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the universe trying to produce bigger and better idiots. So far, the universe is winning. <small>(Rick Cook)</small></p>
+
+			<p class="quoted" id="quote19">It’s a curious thing about our industry: not only do we not learn from our mistakes, we also don’t learn from our successes. <small>(Keith Braithwaite)</p>
+
+			<p class="quoted" id="quote20">There are only two kinds of programming languages: those people always bitch about and those nobody uses. <small>(Bjarne Stroustrup)</small></p>
+
+			<p class="quoted" id="quote21">In order to understand recursion, one must first understand recursion. <small>(Anonymous)</small></p>
+
+			<p class="quoted" id="quote22">The cheapest, fastest, and most reliable components are those that aren’t there. <small>(Gordon Bell)</small></p>
+
+			<p class="quoted" id="quote23">The best performance improvement is the transition from the nonworking state to the working state. <small>(J. Osterhout)</small></p>
+
+			<p class="quoted" id="quote24">The trouble with programmers is that you can never tell what a programmer is doing until it’s too late. <small>(Seymour Cray)</small></p>
+
+			<p class="quoted" id="quote25">Don’t worry if it doesn’t work right. If everything did, you’d be out of a job. <small>(Mosher’s Law of Software Engineering)</small></p>
+
+		</div>
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </HTML>
