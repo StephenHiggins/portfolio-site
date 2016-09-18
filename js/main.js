@@ -1,12 +1,14 @@
 function main() {
 
-
+setTimeout(slideAll, 500)
 
 // Quote machine logic
 
 quoteMachine()
+quoteMachine()
 
 window.setInterval(quoteMachine, 50000  ); //sixty seconds
+
 
 	function quoteMachine() {
 		let quoteArr = $('.quoted')
@@ -48,9 +50,27 @@ $('code h4').each(function(i, block) {
 
 // Slider
 
-$('.qc').on('mouseover', function(){
-	$('.specs').slideToggle(1000)
-})
+function slideAll() {
+	$('#row1').slideToggle(1000, function() {
+		$('#row2').slideToggle(1000, function() {
+			$('#row3').slideToggle(1000, function() {
+				$('#row4').slideToggle(1000, function() {
+					$('#row5').slideToggle(1000, function() {
+						$('#row6').slideToggle(1000, function() {
+
+						})
+					})
+				})
+			})
+		})
+	})
+	
+
+}
+
+
+
+
 
 
 }

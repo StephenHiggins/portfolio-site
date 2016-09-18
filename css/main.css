@@ -22,7 +22,9 @@ blockquote>p, .bio {
   font-family: "Calisto MT","Bookman Old Style",Bookman,"Goudy Old Style",Garamond,"Hoefler Text","Bitstream Charter",Georgia,serif;
 }
 
-
+#row1, #row2, #row3, #row4, #row5, #row6 {
+  display: none;
+}
 
 .footer {
   
