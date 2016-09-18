@@ -6,7 +6,7 @@ function main() {
 
 quoteMachine()
 
-window.setInterval(quoteMachine, 30000  ); //thirty seconds
+window.setInterval(quoteMachine, 50000  ); //sixty seconds
 
 	function quoteMachine() {
 		let quoteArr = $('.quoted')
@@ -38,7 +38,7 @@ window.setInterval(quoteMachine, 30000  ); //thirty seconds
 	}
 
 
-// code highlighting
+// code highlighting using the highlight.js library
 
 
 $('code h4').each(function(i, block) {
@@ -46,14 +46,14 @@ $('code h4').each(function(i, block) {
 })
 
 
+// Slider
 
+$('.qc').on('mouseover', function(){
+	$('.specs').slideToggle(1000)
+})
 
 
 }
 
 $(document).ready(main)
 
-
-
-
-//.css('background-color', colours[getRnd(cL)])
