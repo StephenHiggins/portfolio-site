@@ -1,6 +1,11 @@
 function main() {
 
+
+
+// Quote machine logic
+
 quoteMachine()
+
 window.setInterval(quoteMachine, 30000  ); //thirty seconds
 
 	function quoteMachine() {
@@ -31,6 +36,19 @@ window.setInterval(quoteMachine, 30000  ); //thirty seconds
 		$('#quote-container>p').css('color', 'white')
 		lastCol = colIndex
 	}
+
+
+// code highlighting
+
+
+$('code h4').each(function(i, block) {
+    hljs.highlightBlock(block);
+})
+
+
+
+
+
 }
 
 $(document).ready(main)

@@ -8,13 +8,7 @@
   color: black;
 }
 
-.img-head {
 
-  shape-outside: url(images/codelove.png);
-  shape-image-threshold: 0.5;
-  float: left;
-  shape-margin: 10px;
-}
 
 #hidden-quote-container {
   display: none;
@@ -24,9 +18,11 @@ small {
   text-align: right;
   font-family: "Calisto MT","Bookman Old Style",Bookman,"Goudy Old Style",Garamond,"Hoefler Text","Bitstream Charter",Georgia,serif;
 }
-blockquote>p {
+blockquote>p, .bio {
   font-family: "Calisto MT","Bookman Old Style",Bookman,"Goudy Old Style",Garamond,"Hoefler Text","Bitstream Charter",Georgia,serif;
 }
+
+
 
 .footer {
   
